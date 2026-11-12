@@ -253,41 +253,8 @@ The model performance is evaluated using the following metrics:
 
 ---
 
-## 9. Deployment Instructions – Render
 
-The Flask application can be deployed using Render.
-
-### Steps
-
-1. Create an account on Render.
-2. Upload the complete project to GitHub.
-3. Open Render and create a new Web Service.
-4. Connect your GitHub repository.
-5. Configure the deployment settings.
-
-### Build Command
-
-```bash
-pip install -r requirements.txt
-```
-
-### Start Command
-
-```bash
-gunicorn app:app
-```
-
-Make sure `gunicorn` is included in `requirements.txt` and your Flask application object is named `app`.
-
-6. Click Deploy.
-7. Wait for the deployment process to complete.
-8. Open the generated public URL and test the application.
-
-**Live Application:** 
-
----
-
-## 10. Future Enhancements
+## 9. Future Enhancements
 
 - Improve prediction accuracy using other regression algorithms.
 - Add student performance visualization.
@@ -297,7 +264,7 @@ Make sure `gunicorn` is included in `requirements.txt` and your Flask applicatio
 
 ---
 
-## 11. Conclusion
+## 10. Conclusion
 
 This project demonstrates how Machine Learning Regression techniques can be used to predict student academic performance.
 
@@ -307,7 +274,7 @@ The project covers the complete Machine Learning workflow, including data collec
 
 ---
 
-## 12. Author
+## 11. Author
 
 **Created By:** D.Suchithra Vennela
 
@@ -317,7 +284,7 @@ The project covers the complete Machine Learning workflow, including data collec
 
 ---
 
-## 13. Acknowledgement
+## 12. Acknowledgement
 
 This project was developed as part of the Machine Learning Regression Task under Vihara Tech Institute.
 
