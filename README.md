@@ -126,7 +126,7 @@ Student_Performance_Regression/
 ### Step 1: Clone the Repository
 
 ```bash
-git clone 
+git clone github.com/Venneladhibba/Student_Performance_Prediction.git
 ```
 
 ### Step 2: Open the Project Folder
